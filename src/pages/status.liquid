@@ -1,0 +1,13 @@
+---
+title: Status
+layout: layouts/page.njk
+permalink: /status/
+eleventyNavigation:
+  key: Status
+  order: 3
+---
+
+{% for status in statuses %}
+  {% include "components/status.liquid" with status %}
+  <br>
+{% endfor %}

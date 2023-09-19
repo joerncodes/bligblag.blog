@@ -2,5 +2,8 @@
 layout: layouts/base.njk
 ---
 
-<time>{{ date | readableDate }}</time>
-<article>{{ content | safe }}</article>
+<time>Written {{ date | readableDate }}</time>
+
+<article class="my-8 prose prose-xl">
+    {{ content | safe }}
+</article>

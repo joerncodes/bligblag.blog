@@ -8,7 +8,9 @@
     {% include "../components/navigation.njk" %}
     <main class="p-12 container mx-auto">
       <h2 class="text-5xl font-subheading mb-8 font-bold">{{title}}</h2>
-      {{ content | safe }}
+      <article class="prose prose-xl prose-h2:font-subheading prose-h3:font-subheading">
+        {{ content | safe }}
+      </article>
     </main>
     <script src="/assets/main.js"></script>
   </body>

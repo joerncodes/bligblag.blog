@@ -1,0 +1,19 @@
+---
+title: Home
+layout: layouts/base.njk
+---
+{% assign status = statuses[0] %}
+
+<div class="space-y-8">
+  <section class="my-6 p-4 rounded-lg border-slate-200 border-4 inline-block relative">
+    <h4 class="text-2xl mb-4 font-subheading">What's going on?</h4>
+    {% include "components/status.liquid" with status %}
+    <div class="mt-4 text-slate-400 text-right">
+      <a href="/status">👉 all statuses</a>
+    </div>
+  </section>
+  <div>
+    <p>This is the project's home page. There is a little styling for demonstration purposes only.</p>
+    <p>The navigation might as well be a sidebar, or a floating menu. This template provides the structure, make it yours ✌️</p>
+  </div>
+</div>
