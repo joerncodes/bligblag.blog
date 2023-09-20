@@ -1,6 +1,11 @@
 module.exports = {
   theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+    },
     fontFamily: {
+      sans: ["Lato", "ui-sans-serif", "system-ui", "-apple-system"],
       heading: ["VC Honey Black Banner", "serif"],
       subheading: ["VC Honey Deck", "serif"],
     },
@@ -8,6 +13,12 @@ module.exports = {
       colors: {
         accent: "#f31179",
       },
+      typography: {
+        DEFAULT: {
+          css: {
+          }
+        }
+      }
     },
   },
   content: [

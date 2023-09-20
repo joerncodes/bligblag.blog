@@ -2,12 +2,17 @@
 <html lang="en">
   <head>
     <title>{{ title }}</title>
-     <link rel="stylesheet" type="text/css" href="/assets/main.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet">
   </head>
   <body>
     {% include "../components/navigation.njk" %}
-    <main class="p-12 container mx-auto">
-      <h2 class="text-5xl font-subheading mb-8 font-bold">{{title}}</h2>
+    <main class="p-12 container max-w-[100ch]">
+      <h2 class="text-5xl text-gray-700 font-subheading mb-8 font-bold">{{ title }}</h2>
       {{ content | safe }}
     </main>
     <script src="/assets/main.js"></script>

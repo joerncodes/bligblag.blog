@@ -2,8 +2,34 @@
 layout: layouts/base.njk
 ---
 
-<time>Written {{ date | readableDate }}</time>
-
-<article class="my-8 prose prose-xl">
-    {{ content | safe }}
+<time class="text-slate-400">✍️ {{ date | readableDate }} ({{ date | relativeDate }})</time>
+{% if tags.length %}
+  <ul class="mt-4">
+    {% for tag in tags %}
+      {% if tag !== "posts" %}
+        <li class="mr-2 text-slate-400 text-xs inline-flex items-center font-bold leading-sm pl-2 pr-3 gap-1 py-1 rounded-full
+            bg-white border hover:text-gray-600">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095
+                18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6z"/>
+          </svg>
+          {{ tag }}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endif %}
+<article class="my-8 max-w-none prose prose-lg text-gray-600 prose-h1:font-heading prose-h2:font-subheading
+    prose-h3:font-subheading">
+  {{ content | safe }}
 </article>
