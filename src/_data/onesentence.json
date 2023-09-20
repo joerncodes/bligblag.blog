@@ -1,0 +1,70 @@
+{
+  "books": {
+    "2023": [
+      {
+        "author": "Jim Butcher",
+        "title": "Death Masks",
+        "read": "2023-03-03",
+        "genre": "⚔️ Fantasy",
+        "review": "I don't know if vampires are just not my thing, but the duel with Ortega didn't captivate me enough to fully buy into this instalment of the Dresden Files.",
+        "cover": "https://res.cloudinary.com/ddux8vytr/image/upload/c_fill,w_150/v1695112478/mqjywbyc0lxgffo0h1xi.jpg"
+      },
+      {
+        "author": "William R. Forstchen",
+        "title": "One Second After",
+        "read": "2023-05-10",
+        "genre": "🕵️‍♀️ Thriller",
+        "review": "The intriguing premise and thought-provoking challenges faced by the protagonists make for an engaging narrative, but Forstchen struggles to craft truly believable characters and authentic dialogue.",
+        "cover": "https://res.cloudinary.com/ddux8vytr/image/upload/c_fill,w_150/v1695113353/kjout0vscjdsyatlabbm.jpg"
+      },
+      {
+        "author": "James S.A. Corey",
+        "title": "Nemesis Games",
+        "read": "2023-06-01",
+        "genre": "️🚀 Science-Fiction",
+        "review": "The decision to split the <em>Rocinante</em>'s crew and follow their individual paths, especially Amos' visit to Earth and the wonderfully disfunctional relationship between Filip and his father, initially gave me pause, but paid off immensely, especially with the nail-biter of the protomolecule coup.",
+        "cover": "https://res.cloudinary.com/ddux8vytr/image/upload/c_fill,w_150/v1695198224/ckhmimq9bae92xv4yebg.webp"
+      },
+      {
+        "author": "Chris Voss",
+        "title": "Never Split the Difference",
+        "read": "2023-06-06",
+        "genre": "️🧠 Non-Fiction",
+        "review": "While I might raise the criticism of the book being a bit wordy at times, and Voss' examples a bit too extreme for the everyday negotiator, <em>Never Split the Difference</em> became an invaluable tool in a salary negotiation which ended up giving me the highest raise of my life.",
+        "cover": "https://res.cloudinary.com/ddux8vytr/image/upload/c_fill,w_150/v1695198494/bqiub3qmdxl9amts8htp.webp"
+      },
+      {
+        "author": "Perry Klebahn",
+        "title": "Ideaflow",
+        "read": "2023-06-07",
+        "genre": "️🧠 Non-Fiction",
+        "review": "<em>Ideaflow</em> is the prime example of a non-fiction book that is not devoid of interesting insights, but could have communicated the same concepts on about a quarter of the length.",
+        "cover": "https://res.cloudinary.com/ddux8vytr/image/upload/c_fill,w_150/v1672316992/obsidian/834CA212-A96B-4BBF-BFFB-02DB67BFDB6F_mp6ixa.jpg"
+      },
+      {
+        "author": "Various Authors",
+        "title": "Poems for a World Gone to Shit",
+        "read": "2023-06-07",
+        "genre": "️📜 Poems",
+        "review": "While some of the included poems either delighted me or encouraged me to think, I closed the book and immediately forgot most of them.",
+        "cover": "https://res.cloudinary.com/ddux8vytr/image/upload/c_fill,w_150/v1695198837/ynrw2tnuknehyhf3hsjd.jpg"
+      },
+      {
+        "author": "James S.A. Corey",
+        "title": "Babylon's Ashes",
+        "read": "2023-07-13",
+        "genre": "️🚀 Science-Fiction",
+        "review": "I enjoyed every single minute of <em>Babylon's Ashes</em>, even though it is my least favorite <em>Expanse</em> book I read so far, not least because of the utter two-dimensionality of Marco Inaros as an antagonist.",
+        "cover": "https://res.cloudinary.com/ddux8vytr/image/upload/c_fill,w_150/v1695199754/npavqc8bfbouuxfdkjno.jpg"
+      },
+      {
+        "author": "Jim Butcher",
+        "title": "Blood Rites",
+        "read": "2023-07-21",
+        "genre": "⚔️ Fantasy",
+        "review": "I got the vague feeling that Butcher wanted to set one of the Dresden novels in the adult entertainment milieu for *ages* and finally gathered up the courage to do so, but I have to concede it resulted in one of the most entertaining and action-packed stories about the Chicago wizard, owed in great parts to the interesting concept of the White Court and the action movie stereotype that is Kincaid.",
+        "cover": "https://res.cloudinary.com/ddux8vytr/image/upload/c_fill,w_150/v1695199903/sqb6rppcgczqc5katays.jpg"
+      }
+    ]
+  }
+}

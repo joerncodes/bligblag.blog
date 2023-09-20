@@ -1,0 +1,22 @@
+---
+title: One Sentence — Books 2023
+layout: layouts/page.njk
+permalink: /one-sentence/books-2023/
+---
+
+I read {{ onesentence.books[2023].length }} books in 2023.
+{% for book in onesentence.books[2023] %}
+    <div class="flex gap-6">
+        <img class="hidden md:block pt-3" src="{{ book.cover }}"/>
+        <div>
+            <h3>
+                {{ book.author }} &mdash; {{ book.title }}</h3>
+            <div class="flex gap-2 text-sm text-slate-400">
+                <span>{{ book.genre }}</span>
+                <span>&bull;</span>
+                <span>finished reading {{ book.read }}</span>
+            </div>
+            <p>{{ book.review | safe }}</p>
+        </div>
+    </div>
+{% endfor %}
