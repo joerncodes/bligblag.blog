@@ -4,6 +4,7 @@ const {
 } = require("@vidhill/fortawesome-free-regular-11ty-shortcode");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
   const markdownLibrary = markdownIt({
@@ -21,6 +22,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPlugin(fortawesomeFreeRegularPlugin);
+  eleventyConfig.addPlugin(pluginRss);
 
   const { DateTime } = require("luxon");
 

@@ -19,6 +19,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-navigation": "^0.1.6",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@tailwindcss/typography": "^0.5.10",
     "@vidhill/fortawesome-free-regular-11ty-shortcode": "^1.0.3",
     "autoprefixer": "^10.4.7",
@@ -34,6 +35,5 @@
     "tailwindcss": "^3.0.24",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"
-  },
-  "dependencies": {}
+  }
 }
