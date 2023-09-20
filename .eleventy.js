@@ -24,6 +24,15 @@ module.exports = function (eleventyConfig) {
 
   const { DateTime } = require("luxon");
 
+  eleventyConfig.addFilter("wordcount", (str) => {
+    return str.trim().split(/\s+/).length;
+  });
+
+  eleventyConfig.addFilter("readtime", (str) => {
+    const words = str.trim().split(/\s+/).length;
+    return Math.round(words / 238, 2);
+  });
+
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     return DateTime.fromJSDate(dateObj, {

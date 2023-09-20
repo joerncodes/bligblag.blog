@@ -2,7 +2,14 @@
 layout: layouts/base.njk
 ---
 
-<time class="text-slate-400">✍️ {{ date | readableDate }} ({{ date | relativeDate }})</time>
+<div class="text-slate-400 flex gap-4">
+  <time class="flex gap-2">{% include "icons/pencil.njk" %} {{ date | readableDate }} ({{ date | relativeDate }})</time>
+  <span>&bull;</span>
+  <span class="flex gap-2">{% include "icons/book.njk" %} {{ content | wordcount }} words</span>
+  <span>&bull;</span>
+  <span class="flex gap-2">{% include "icons/clock.njk" %} {{ content | readtime }} minute{% if content | readtime > 1%}s{% endif %}</span>
+</div>
+
 {% if tags.length %}
   <ul class="mt-4">
     {% for tag in tags %}
@@ -29,7 +36,10 @@ layout: layouts/base.njk
     {% endfor %}
   </ul>
 {% endif %}
-<article class="my-8 max-w-none prose prose-lg text-gray-600 prose-h1:font-heading prose-h2:font-subheading
-    prose-h3:font-subheading">
-  {{ content | safe }}
+
+{% if image %}
+  <img class="mt-8 drop-shadow-xl" src="{{ image }}" />
+{% endif %}
+<article class="my-8 max-w-none prose prose-lg text-gray-600 prose-h1:font-heading prose-h2:font-subheading prose-h3:font-subheading">
+ {{ content | safe }}
 </article>

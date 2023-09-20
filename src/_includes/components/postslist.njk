@@ -2,13 +2,19 @@
   {% for post in postslist %}
     <li>
       <div class="flex gap-4">
-        <h3 class="font-subheading text-lg flex gap-4 items-center">
-          <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-        </h3>
-        <time class="text-slate-400 pt-[0.2em]">{{ post.date | readableDate }} ({{ post.date | relativeDate }})</time>
-      </div>
-      <div class="ml-4">
-        <p class="prose prose-md">{{ post.data.description }}</p>
+        <a class="hidden md:block href="{{ post.url | url }}">
+          <img class="aspect-square w-20" src="{{ post.data.image }}"/>
+        </a>
+        <div>
+          <div class="flex gap-4">
+            <h3 class="font-subheading text-lg flex gap-4 items-center">
+              <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+            </h3>
+            <time class="text-slate-400 pt-[0.2em]">{{ post.date | readableDate }}
+              ({{ post.date | relativeDate }})</time>
+          </div>
+          <p class="prose prose-md">{{ post.data.description }}</p>
+        </div>
       </div>
     </li>
   {% endfor %}
