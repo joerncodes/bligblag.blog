@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://bligblag.blog">
   <title>bligblag.blog</title>
-  <subtitle>A hodgepodge of thoughtcrimes.</subtitle>
+  <subtitle>A hodgepodge of thoughtpiles.</subtitle>
   <link href="https://bligblag.blog/feed.xml" rel="self"/>
   <link href="https://bligblag.blog"/>
   <updated>2023-09-19T00:00:00Z</updated>
@@ -11,16 +11,25 @@
     <email>mail@joern.art</email>
   </author>
   <entry>
-    <title>Please Inconvenience Me</title>
-    <link href="https://bligblag.blog/blog/posts/please-inconvenience-me/"/>
+    <title>Inconvenience Me</title>
+    <link href="https://bligblag.blog/inconvenience-me.html"/>
     <updated>2023-09-19T00:00:00Z</updated>
-    <id>https://bligblag.blog/blog/posts/please-inconvenience-me/</id>
+    <id>https://bligblag.blog/inconvenience-me.html</id>
     <content xml:lang="en" type="html">&lt;p&gt;My dad and I observed my 3-year-old tearing up the living room — jumping on the couch like he was getting paid for it and running the length of the room enough times to count as a workout — while drinking coffee.&lt;br /&gt;
 “Sugar&#39;s working,” I remarked between sips.&lt;br /&gt;
 “What do you mean?” my dad asked.&lt;br /&gt;
 I looked at him incredulously. The sudden burst of manic energy was &lt;em&gt;clearly&lt;/em&gt; the result of us just having fed him an inadvisable amount of cake. Somehow, my dad has never realized that ingesting sugar has an observable effect, on toddlers especially.&lt;br /&gt;
 The thing about sugar, though, is that it burns &lt;em&gt;bright&lt;/em&gt;. Your body absorbs it quickly and easily, and you get a sudden, intense rush of energy. But it doesn&#39;t last long. When the sugar crash hits, your energy levels are actually &lt;em&gt;worse&lt;/em&gt; than they were before.&lt;/p&gt;
 &lt;p&gt;The modern world seems to increasingly focus on providing you with small, easily digestible content. Twitter&#39;s microblogging became more popular than reading long-form blog posts. TikTok flooded millions of smartphones with an app that is essentially malware because they became so good at always throwing you the next morsel of content. Instagram and YouTube soon followed suit.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>A Potpourri of Memories</title>
+    <link href="https://bligblag.blog/a-potpourri-of-memories.html"/>
+    <updated>2023-09-19T00:00:00Z</updated>
+    <id>https://bligblag.blog/a-potpourri-of-memories.html</id>
+    <content xml:lang="en" type="html">&lt;p&gt;&lt;strong&gt;I remember&lt;/strong&gt; Christmas at my parent&#39;s house. Germans traditionally open presents on Christmas Eve, so Christmas Day itself is usually pretty quiet. It became an agreed-upon tradition to watch one of the &lt;em&gt;Star Wars&lt;/em&gt; (&lt;em&gt;Stars War&lt;/em&gt;?) together. I remember my dad turning the stereo up so loud that a passing star destroyer made the nice glasses in the cabinet shake. I remember my dad snickering and turning ten years younger when my mom scolded him.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I remember&lt;/strong&gt; drawing the short straw, making me the designated driver to get home from the punk rock concert me and my friends went to. I was 19 years old and still a very nervous driver; a fact that the raucous laughter of my three-sheets-to-the-wind friends in the backseat did nothing to assuage. I remember having to wait at a red light on the way up a hill and stalling the car &lt;em&gt;no less than eight times&lt;/em&gt;. It took us three phases of green lights until we were able to be on our way.&lt;/p&gt;
 </content>
   </entry>
 </feed>

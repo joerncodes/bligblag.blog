@@ -1313,6 +1313,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mr-4 {
   margin-right: 1rem;
 }
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.-mt-1 {
+  margin-top: -0.25rem;
+}
+.mr-1 {
+  margin-right: 0.25rem;
+}
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -1324,6 +1333,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .mt-8 {
   margin-top: 2rem;
+}
+.ml-0 {
+  margin-left: 0px;
 }
 .mb-4 {
   margin-bottom: 1rem;
@@ -1363,6 +1375,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .max-w-none {
   max-width: none;
+}
+.list-none {
+  list-style-type: none;
 }
 .flex-wrap {
   flex-wrap: wrap;
@@ -1450,6 +1465,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pr-3 {
   padding-right: 0.75rem;
+}
+.pl-0 {
+  padding-left: 0px;
 }
 .pt-3 {
   padding-top: 0.75rem;
@@ -1558,6 +1576,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .prose-h3\:font-subheading :is(:where(h3):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   font-family: VC Honey Deck, serif;
+}
+.prose-h4\:font-subheading :is(:where(h4):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  font-family: VC Honey Deck, serif;
+}
+.prose-img\:float-right :is(:where(img):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  float: right;
+}
+.prose-img\:mt-2 :is(:where(img):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  margin-top: 0.5rem;
 }
 @media (min-width: 768px) {
 
