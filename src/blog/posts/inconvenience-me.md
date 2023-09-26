@@ -1,10 +1,11 @@
 ---
-title: Please Inconvenience Me
+title: Inconvenience Me
 date: 2023-09-19
 description: "The modern world seems to focus more on more on quick, easily-digestible dopamine hits. I want to make a conscious effort to resist this."
 layout: layouts/post.njk
 tags: ["hudefude", "raxknax"]
 image: https://images.unsplash.com/photo-1485402073834-c95f3eac2fcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2675&q=80
+permalink: /inconvenience-me.html
 ---
 My dad and I observed my 3-year-old tearing up the living room — jumping on the couch like he was getting paid for it and running the length of the room enough times to count as a workout — while drinking coffee.  
 “Sugar's working,” I remarked between sips.

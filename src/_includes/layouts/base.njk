@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>{{ title }}</title>
+    <title>{{ title }} &mdash; bligblag.blog</title>
     <link rel="stylesheet" type="text/css" href="/assets/main.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +12,11 @@
   <body>
     {% include "../components/navigation.njk" %}
     <main class="p-12 container max-w-[100ch]" >
-      <h2 class="text-5xl text-gray-700 font-subheading mb-8 font-bold">{{ title }}</h2>
+      <h2 class="text-5xl text-gray-700 font-subheading mb-8 font-bold">
+        <a href="{{ permalink | url }}">
+          {{ title }}
+        </a>
+      </h2>
       {{ content | safe }}
     </main>
     <script src="/assets/main.js"></script>

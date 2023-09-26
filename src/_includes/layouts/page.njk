@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>{{ title }}</title>
+    <title>{{ title }} &mdash; bligblag.blog</title>
      <link rel="stylesheet" type="text/css" href="/assets/main.css" />
   </head>
   <body>
     {% include "../components/navigation.njk" %}
     <main class="p-12 container max-w-[100ch]">
       <h2 class="text-5xl font-subheading mb-8 font-bold">{{title}}</h2>
-      <article class="prose prose-xl prose-h2:font-subheading prose-h3:font-subheading">
+      <article class="prose prose-xl prose-h2:font-subheading prose-h3:font-subheading {{proseClasses}}">
         {{ content | safe }}
       </article>
     </main>

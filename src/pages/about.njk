@@ -1,16 +1,40 @@
 ---
 title: About
-layout: layouts/base.njk
+layout: layouts/page.njk
 permalink: /about/
+proseClasses: prose-img:float-right prose-img:mt-2
 eleventyNavigation:
   key: About
   order: 5
 ---
 
+<img src="https://res.cloudinary.com/ddux8vytr/image/upload/c_thumb,g_north,h_300,w_300/v1670930780/obsidian/IMG_4966_kbukm9.jpg"/>
+<p>Hey folks, my name is Jörn! I’m currentYear() - 1984 years old, and I live in Bonn, Germany with my wife and my
+  little boy. I work as a web developer at <a href="https://kernpunkt.de">kernpunkt Digital GmbH</a>, and moonlight as a digital artist and illustrator.</p>
+<p>My hobbies include, but are not limited to:</p>
 <ul>
-     {% for item in contact.items %}
-     <li><a href="{{ item.link }}">{{ item.name }}</a></li>
-     {% endfor %}
+  <li>D&D</li>
+  <li>Coffee</li>
+  <li>Running</li>
+  <li>Art</li>
 </ul>
-
-<p class="mt-4">☝️ This page gets its content from <code>src/_data/contact.json</code></p>
+<h2>Links</h2>
+<div class="flex gap-6">
+  <ul class="list-none pl-0 ml-0">
+    <li class="pl-0">
+      <a href="https://joern.art">{% include "icons/palette.njk" %} Art Portfolio</a>
+    </li>
+    <li class="pl-0">
+      <a href="https://mastodon.art/@joerndraws">{% include "icons/mastodon.njk" %} Mastodon</a>
+    </li>
+  </ul>
+  <ul class="list-none pl-0 ml-0">
+    <li class="pl-0">
+      <a href="https://twitter.com/joerndraws">{% include "icons/twitter.njk" %} Twitter</a>
+      <small>(I'm not going to call it X)</small>
+    </li>
+    <li class="pl-0">
+      <a href="https://instagram.com/joerndraws">{% include "icons/instagram.njk" %} Instagram</a>
+    </li>
+  </ul>
+</div>
